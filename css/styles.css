@@ -651,6 +651,7 @@ button {
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+    width: 264px;
     /*padding-bottom: 100px;
     margin-top: 137.5px;
     margin-left: 0px;*/
@@ -703,4 +704,52 @@ button {
 
 .footer-item-icons:not(:last-child){
     margin-right: 16px;
+}
+
+.footer-subscribe{
+    padding-top: 101.5px;
+    color: var(--cloud);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.footer-email{
+    display: inline-flex;
+}
+
+.footer-sub-list {
+    list-style: none;
+    display: flex;    
+}
+
+
+.footer-item-sub{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px; 
+}
+
+.footer-button{
+    text-transform: capitalize;
+    border-radius: 4px;
+    background: var(--iris);
+    color: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);    
+    padding: 8px;
+
+    align-items: center;
+    margin-top: 24px;
+/*    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
 }
